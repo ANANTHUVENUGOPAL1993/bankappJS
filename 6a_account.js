@@ -115,7 +115,7 @@ class Bank {
   logout() {
     if ("user" in sessionStorage) {
       sessionStorage.removeItem("user")
-      window.location.href = "./6a_newlogin.html"
+      window.location.href = "index.html"
     }
     else {
       alert("invalid session , you must login first")
